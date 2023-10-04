@@ -1,5 +1,6 @@
-import urllib.request, urllib.parse, urllib.error
-
+import urllib.error
+import urllib.parse
+import urllib.request  # noqa E401
 
 fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
 """for line in fhand:
